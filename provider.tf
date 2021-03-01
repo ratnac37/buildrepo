@@ -6,3 +6,9 @@ provider "azurerm" {
   client_secret   = "_Dw9V-.~T9-Na2wO88wI-f3YSmOzuy_5-p"
   tenant_id       = "7829b58f-8707-4a6d-bf5f-d8f7ac3c18ea"
 }
+
+terraform {
+  backend "azurerm" {
+    access_key = "kY6dhv0n2GdiJVegbHJSLL7WCVj8K+bHQ419jzguY794QvtwYt67NwiJRfgGGVPNttG9pvpUvviq2tTzgiBHPw=="
+      }
+}
